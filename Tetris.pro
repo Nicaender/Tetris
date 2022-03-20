@@ -10,10 +10,14 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    tetris.cpp
+    stone.cpp \
+    tetris.cpp \
+    tetris_manager.cpp
 
 HEADERS += \
-    tetris.h
+    stone.h \
+    tetris.h \
+    tetris_manager.h
 
 FORMS += \
     tetris.ui
